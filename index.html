@@ -9,10 +9,20 @@
         textarea {
             width: 40%;
             height: 5vh;
+            display: block;
             margin: auto;
             padding: 1rem;
 
         }
+        #output {
+            border: 1px solid black;
+            width: 40%;
+            height: 5vh;
+           
+            margin: auto;
+            padding: 1rem;
+        }
+        
     </style>
 </head>
 <body>
@@ -20,6 +30,8 @@
 
     <textarea id="txt-input" placeholder="put your sentence in english"></textarea>
     <button id="translate">Translate</button>
+
+    <div id="output"></div>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
