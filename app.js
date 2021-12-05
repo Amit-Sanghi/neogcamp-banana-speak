@@ -1,5 +1,14 @@
 var translate = document.querySelector("#translate")
+var txtInput = document.querySelector("#txt-input")
 
-translate.addEventListener("click",function clickEventListener (){
+
+
+function clickEventListener() {
     console.log("clicked!!")
-})
+    console.log("input ", txtInput.value)
+
+}
+
+
+
+translate.addEventListener("click", clickEventListener)
