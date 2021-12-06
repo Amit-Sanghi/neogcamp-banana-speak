@@ -2,12 +2,32 @@ var translate = document.querySelector("#translate")
 var txtInput = document.querySelector("#txt-input")
 var output = document.querySelector("#output")
 
+// / var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
+
+function getTranslation(input) {
+    return serverURL + "?" + "text="+input
+}
+
+function errorHandler(error) {
+    console.log("error occured",error)
+    alert("something went wrong")
+
+}
+
 
 
 function clickEventListener() {
     console.log("clicked!!")
-    console.log("input ", txtInput.value)
-    output.innerText = "hjgafgiug "+ txtInput.value;
+    var inputText = txtInput.value
+
+    fetch(getTranslation(inputText))
+    .then(responce => Response.json())
+    .then(json => {
+        var translatedText = json.contents.translated
+        outputDiv.innerText = translatedText;
+    })
+    .catch(errorHandler)
 
 }
 
