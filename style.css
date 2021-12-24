@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+
+body {
+    font-family: 'Oooh Baby', cursive;
+    
+}
+.center {
+    text-align: center;
+}
+
+textarea {
+    width: 60%;
+    height: 10vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 1000;
+}
+#output {
+    border: 1px solid black;
+    width: 60%;
+    height: 10vh;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 1000;
+    font-size: 130%;
+}
+button {
+    width: 20%;
+    margin: 2rem 33rem;
+}
