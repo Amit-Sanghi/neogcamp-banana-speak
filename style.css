@@ -10,7 +10,8 @@ textarea {
     width: 60%;
     height: 10vh;
     display: block;
-    margin: auto;
+    display: flex;
+    margin: 5% 15%
     padding: 1rem;
     font-weight: 1000;
 }
@@ -18,7 +19,8 @@ textarea {
     border: 1px solid black;
     width: 60%;
     height: 10vh;
-    margin: auto;
+    display: flex;
+    margin: 5% 15%;
     padding: 1rem;
     font-weight: 1000;
     font-size: 130%;
@@ -27,3 +29,17 @@ button {
     width: 20%;
     margin: 2rem 33rem;
 }
+
+@media screen and (max-width: 667px) {
+    body {
+      background-color: lightgreen;
+    }
+    button{
+        margin: auto;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+    }
+    
+  }
+
