@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-textarea {
+.textarea {
     width: 60%;
     height: 10vh;
     display: block;
@@ -25,7 +25,7 @@ textarea {
     font-weight: 1000;
     font-size: 130%;
 }
-button {
+.button {
     width: 20%;
     margin: 2rem 33rem;
     background-color: #ffff00
