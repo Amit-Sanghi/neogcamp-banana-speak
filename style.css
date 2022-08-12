@@ -11,7 +11,7 @@
     height: 10vh;
     display: block;
     display: flex;
-    margin: 5% 15%
+    margin: 5% 15%;
     padding: 1rem;
     font-weight: 1000;
 }
@@ -27,8 +27,8 @@
 .button {
     width: 20%;
     margin: 2rem 33rem;
-    background-color: #ffff00;
-    color : white;
+    background-color: #fbec5d;
+    color : black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
