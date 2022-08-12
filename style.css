@@ -19,7 +19,6 @@
     border: 1px solid black;
     width: 60%;
     height: 10vh;
-    display: flex;
     margin: 5% 15%;
     padding: 1rem;
     font-weight: 1000;
@@ -42,7 +41,7 @@
       background-color: lightgreen;
     }
     button{
-        margin: auto;
+        
         width: 50%;
         justify-content: center;
         display: flex;
